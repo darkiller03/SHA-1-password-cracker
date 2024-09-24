@@ -6,8 +6,7 @@ This project is a **FreeCodeCamp** project associated with the **Information Sec
 - [Project Overview](#project-overview)
 - [How It Works](#how-it-works)
 - [Running the Project](#running-the-project)
-- [Testing](#testing)
-- [License](#license)
+- [Example Hashes](#example-hashes)
 
 ## Project Overview
 
@@ -30,10 +29,27 @@ Additionally, the project supports using **salts** to enhance password security,
 
 ### Prerequisites
 
-- Ensure you have Python installed on your system.
+- Ensure you have **Python** installed on your system.
 
 ### Running the Password Cracker
 
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/sha1-password-cracker.git
+
+2. Navigate to the project folder:
+   ```bash
+   cd sha1-password-cracker
+3. Run the main program:
+   ```bash
+   python main.py
+
+## Example Hashes
+
+   ### Unsalted:
+   b305921a3723cd5d70a375cd21a61e60aabb84ec ==> "sammy123"  
+   c7ab388a5ebefbf4d550652f1eb4d833e5316e3e ==> "abacab"
+
+   ### Salted:
+   53d8b3dc9d39f0184144674e310185e41a87ffd5 ==> "superman" with **salts**.  
+   da5a4e8cf89539e66097acd2f8af128acae2f8ae ==> "q1w2e3r4t5" with **salts**.
