@@ -1,4 +1,5 @@
-# This entrypoint file to be used in development. Start by reading README.md
+# main.py
+
 import password_cracker
 from unittest import main
 
